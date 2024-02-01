@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -41,7 +45,6 @@ h1 {
 #menu {
   font-size: 110%;
   letter-spacing: 4px;
-  list-style-type: none;
 }
 
 #menu > li {
@@ -87,6 +90,17 @@ main {
 /* Footer */
 footer {
   background-color: bisque;
+}
+#social-networks {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px 0;
+}
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
 }
 
 /* Media screen 768*/
