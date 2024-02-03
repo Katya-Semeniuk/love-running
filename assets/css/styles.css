@@ -241,25 +241,24 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
-}
+  #benefits {
+    display: flex;
+    flex-direction: row;
+  }
+  #benefits > div {
+    flex: 1;
+  }
+  #benefits-img {
+    order: 0;
+  }
+  #benefits-mental {
+    order: 1;
+  }
+  #benefits-mental > div {
+    align-self: self-start;
+  }
 
-#benefits {
-  display: flex;
-  flex-direction: row;
-}
-#benefits > div {
-  flex: 1;
-}
-#benefits-img {
-  order: 0;
-}
-#benefits-mental {
-  order: 1;
-}
-#benefits-mental > div {
-  align-self: self-start;
-}
-
-#benefits-physical > div {
-  align-self: self-end;
+  #benefits-physical > div {
+    align-self: self-end;
+  }
 }
