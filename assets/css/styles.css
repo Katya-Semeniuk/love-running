@@ -17,6 +17,13 @@ body {
   font-family: "Lat0", sans-serif;
   color: #3a3a3a;
 }
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
+}
 /* Header */
 header {
   background-color: #ffffff;
@@ -35,7 +42,9 @@ header a {
   color: inherit;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -67,7 +76,7 @@ nav {
 }
 
 /* nav toggle */
-/* Nav toggle */
+
 #nav-toggle:checked ~ nav {
   display: block;
 }
@@ -87,13 +96,28 @@ main {
 
 /* hero section */
 #hero {
+  position: relative;
   width: 100%;
   height: 600px;
   background: url(../images/hero-image.webp) no-repeat center center/cover;
-
   background-color: lightgreen;
 }
 
+#cover-text {
+  position: absolute;
+  bottom: 30px;
+  width: 80%;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+  font-size: 130%;
+  background-color: rgba(241, 109, 107, 0.7);
+}
+
+#cover-text > h2,
+h3 {
+  color: #ffffff;
+}
 /* Footer */
 footer {
   background-color: bisque;
@@ -140,6 +164,12 @@ footer {
   /* main */
   main {
     margin-top: 79px;
+  }
+
+  /* hero */
+  #cover-text {
+    width: 300px;
+    right: 50px;
   }
 }
 
