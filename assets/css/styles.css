@@ -18,7 +18,9 @@ body {
   color: #3a3a3a;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -40,15 +42,6 @@ header {
 header a {
   text-decoration: none;
   color: inherit;
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #252525;
 }
 
 #menu {
@@ -115,7 +108,7 @@ main {
 }
 
 #cover-text > h2,
-h3 {
+#cover-text > h3 {
   color: #ffffff;
 }
 
@@ -161,6 +154,25 @@ h3 {
   justify-content: center;
 }
 
+/* meetups section */
+#times {
+  background: url(../images/dublin-city.webp) no-repeat center/cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+#times div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  text-align: center;
+  flex-basis: 200px;
+  flex-grow: 1;
+  border: 2px solid #ffffff;
+}
+
+#times h3 {
+  color: #fafafa;
+}
 /* Footer */
 footer {
   background-color: bisque;
