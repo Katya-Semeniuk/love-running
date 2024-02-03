@@ -84,7 +84,8 @@ nav {
 .nav-toggle-label {
   font-size: 2rem;
 }
-/* Main */
+
+/* MAIN PAGE*/
 main {
   margin-top: 47px;
   flex: 1 0 auto;
@@ -175,6 +176,15 @@ main {
 
 #times h3 {
   color: #fafafa;
+}
+
+/* GALLERY PAGE */
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+#photos {
+  line-height: 0;
 }
 /* Footer */
 footer {
