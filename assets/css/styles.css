@@ -235,9 +235,7 @@ main {
   border-radius: 2px;
 }
 /* Footer */
-footer {
-  background-color: bisque;
-}
+
 #social-networks {
   display: flex;
   justify-content: space-evenly;
